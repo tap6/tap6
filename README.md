@@ -20,33 +20,27 @@
 
 ## 日历日记
 
+<img align="right" width="120" src="assets/diary.jpg" alt="日历日记的月历界面" />
+
 [Calendar Diary](https://github.com/trustdev-org/calendar-diary) 是一款跨平台桌面日历，用来记下每天的待办、计划和心情。点开日期就能写，月历上一眼能看到整月安排，也可以给某一天贴心情。
 
 数据默认存在本机。需要多台电脑一起用时，可以接到自己的 WebDAV。也可以加 PIN 和 TOTP。界面有简体中文、繁体中文、英语、日语、韩语和俄语。
 
 Windows、macOS、Linux 都有安装包，站点在 [diary.trustdev.org](https://diary.trustdev.org)。
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/trustdev-org/calendar-diary/main/img-preview-1.png" width="720" alt="日历日记的月历界面" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/trustdev-org/calendar-diary"><img alt="Stars" src="https://img.shields.io/github/stars/trustdev-org/calendar-diary?style=flat-square&label=Stars" /></a>
-  <img alt="Electron" src="https://img.shields.io/badge/Electron-桌面应用-47848F?style=flat-square&logo=electron&logoColor=white" />
-  <img alt="许可" src="https://img.shields.io/badge/许可-CC%20BY--NC%204.0-green?style=flat-square" />
-</p>
+<a href="https://github.com/trustdev-org/calendar-diary"><img alt="Stars" src="https://img.shields.io/github/stars/trustdev-org/calendar-diary?style=flat-square&label=Stars" /></a>
+<img alt="Electron" src="https://img.shields.io/badge/Electron-桌面应用-47848F?style=flat-square&logo=electron&logoColor=white" />
+<img alt="许可" src="https://img.shields.io/badge/许可-CC%20BY--NC%204.0-green?style=flat-square" />
 
 技术栈是 Electron、React 和 TypeScript。许可是 [CC BY-NC 4.0](https://github.com/trustdev-org/calendar-diary/blob/main/LICENSE)：可以分享和修改，需要署名，不能用于商业用途。
 
 ## GitPress
 
+<img align="right" width="120" src="assets/gitpress.jpg" alt="GitPress 后台：随手记、文章、主题和 Actions 用量" />
+
 [GitPress](https://gitpress.net) 是一个博客后台。写作体验接近 WordPress，文章、图片和站点配置都提交到你自己的 GitHub 仓库。保存之后，GitHub Actions 把已发布的文章编成静态网页，挂到 GitHub Pages 或 Vercel。读者打开的是你的站点，草稿留在私有仓库里。
 
 换主题不用搬文章。主题版本写在 `gitpress.json` 里，重新构建即可。配置只做加法，旧站点锁定在当前大版本上，以后的升级不会改你的仓库。
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tap6/GitPress.net/main/apps/web/public/landing/dashboard-zh.webp" width="720" alt="GitPress 后台：随手记、文章、主题和 Actions 用量" />
-</p>
 
 它拆成三个仓库，许可不一样：
 
